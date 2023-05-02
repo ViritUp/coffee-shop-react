@@ -1,0 +1,50 @@
+.coffee-item {
+  padding: 70px 0 30px;
+  .container {
+    max-width: 860px;
+  }
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+  }
+  &__photo img {
+    max-width: 392px;
+    height: 355px;
+    object-fit: cover;
+    filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+  }
+  &-info {
+    max-width: 410px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin: 5px 0 15px;
+    text-align: center;
+  }
+  .divider {
+    margin: 0 auto 30px;
+  }
+  &-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  &__char {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    span {
+      font-weight: 700;
+    }
+    .price {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+}

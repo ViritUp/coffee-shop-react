@@ -1,0 +1,43 @@
+.nav {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: transparent;
+  &-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  &-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    &__link {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+      color: #FFFFFF;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      text-decoration: none;
+    }
+    .logo {
+      .nav-list__link {
+        position: relative;
+        padding-left: 32px;
+        &:before {
+          content: '';
+          width: 35px;
+          height: 35px; 
+          position: absolute;
+          bottom: 2px;
+          left: 0;
+          background: url('../../img/svg/logo.svg') center center/contain no-repeat;
+        }
+      }
+    }
+  }
+}

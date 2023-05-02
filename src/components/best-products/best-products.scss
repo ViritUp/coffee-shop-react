@@ -1,0 +1,18 @@
+.best {
+  padding: 80px 110px;
+  background: url('../../img/bgs/best-products-bg.jpg') center center/cover no-repeat;
+  &__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+}

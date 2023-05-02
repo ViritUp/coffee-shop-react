@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merienda', cursive;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  min-height: 100vh;
+}
+
+.container {
+  height: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#root {
+  min-height: 100vh;
+}
