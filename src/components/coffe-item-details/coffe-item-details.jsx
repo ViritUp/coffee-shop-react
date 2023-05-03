@@ -7,7 +7,7 @@ const CoffeItemDetails = ({name, img, country, descr, price }) => {
     <section className="coffee-item">
       <div className="container">
         <div className="coffee-item-wrapper">
-          <div className="coffee-item__photo">
+          <div className="coffee-item__photo" title={name}>
             <img src={img} alt={name} />
           </div>
           <div className="coffee-item-info">

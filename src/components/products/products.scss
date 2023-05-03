@@ -4,5 +4,9 @@
     display: grid;
     grid-template-columns: repeat(3, 220px);
     gap: 60px 70px;
+    list-style-type: none;
+    a {
+      text-decoration: none;
+    }
   }
 }

@@ -30,8 +30,20 @@
     width: 156px;
     height: 134px;  
     margin-bottom: 10px;
+    img {
+      max-width: 156px;
+      max-height: 134px;
+      object-fit: contain;
+    }
   }
   &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    justify-content: start;
+  }
+  &-bottom {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
