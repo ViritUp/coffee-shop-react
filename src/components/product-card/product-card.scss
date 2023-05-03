@@ -41,14 +41,14 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
-    justify-content: start;
+    justify-content: flex-start;
   }
   &-bottom {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
-    justify-content: start;
+    justify-content: flex-start;
   }
   &__name,
   &__country,

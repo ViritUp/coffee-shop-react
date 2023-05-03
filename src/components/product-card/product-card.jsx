@@ -2,7 +2,7 @@ import {NavLink} from 'react-router-dom'
 
 import './product-card.scss'
 
-const ProductCard = ({img, name, country, price, clazz, index}) => {
+const ProductCard = ({img, name, country, price, clazz, id}) => {
   
   const cropStr = (name) => {
     if (name.length >= 22) {
@@ -17,7 +17,7 @@ const ProductCard = ({img, name, country, price, clazz, index}) => {
   const mainClass = 'product-card ' + clazz;
   
   return ( 
-    <NavLink to={`/coffee-item/${index+1}`}>
+    <NavLink to={`/coffee-item/${id}`}>
       <li className={mainClass} title={name}>
         <div className="product-card-wrapper">
           <div className="product-card__img">

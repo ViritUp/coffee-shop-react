@@ -5,11 +5,14 @@ import CoffeItemDetails from "../components/coffe-item-details/coffe-item-detail
 
 import headerImg from '../img/bgs/coffee-header-bg.jpg'
 
-import coffeeItemImg from '../img/products/product-1-big.jpg'
-
 const CoffeeItem = ({data}) => {
   const {id} = useParams();
-  const coffeeItem = data[id-1];
+  let coffeeItem = '';
+  data.forEach(item => {
+    if(item.id === id) {
+      coffeeItem = item;
+    }
+  });
 
   return (  
     <>

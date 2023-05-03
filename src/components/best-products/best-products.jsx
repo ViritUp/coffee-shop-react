@@ -13,6 +13,7 @@ const BestProducts = ({data}) => {
                 return <ProductCard 
                 key={product.id}
                 index={idx}
+                id={product.id}
                 img={product.img}
                 name={product.name}
                 country=""
