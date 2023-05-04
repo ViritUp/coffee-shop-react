@@ -11,3 +11,13 @@
     color: #FFFFFF;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 100px 0 50px;
+  }
+  .header__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}

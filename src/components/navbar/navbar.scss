@@ -41,3 +41,28 @@
     }
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  .nav {
+    top: 40px;
+  }
+  .nav-list {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-container {
+    padding: 0;
+  }
+  .nav-list {
+    gap: 15px;
+  } 
+  .nav-list .logo .nav-list__link {
+    padding-left: 20px;
+  }
+  .nav-list .logo .nav-list__link:before {
+    width: 25px;
+  }
+}

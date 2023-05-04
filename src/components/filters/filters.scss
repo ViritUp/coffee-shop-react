@@ -82,3 +82,20 @@
     }
   }
 }
+
+
+@media screen and (max-width: 700px) {
+  .filters-wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .filters {
+    margin-bottom: 50px;
+  }
+  .filters-wrapper {
+    align-items: flex-start;
+  }
+}

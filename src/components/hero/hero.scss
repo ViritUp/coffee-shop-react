@@ -35,3 +35,27 @@
     }
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 450px;
+    padding-top: 70px;
+  }
+  .hero__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .hero .divider {
+    margin-bottom: 20px;
+  }
+  .hero-descr {
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .hero-descr p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+}

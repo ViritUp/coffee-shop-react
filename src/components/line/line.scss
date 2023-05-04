@@ -4,3 +4,15 @@
   background-color: #000000;
   margin: 0 auto 60px;
 }
+
+@media screen and (max-width: 600px) {
+  .line {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .filters-buttons__label {
+    display: none;
+  }
+}

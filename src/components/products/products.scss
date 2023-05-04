@@ -16,3 +16,30 @@
     font-weight: 700;
   }
 }
+
+
+@media screen and (max-width: 900px) {
+  .products-list {
+    justify-content: center;
+    gap: 35px 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .products-list {
+    grid-template-columns: repeat(2, 220px);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .products-list {
+    gap: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .products-list {
+    grid-template-columns: repeat(1, 220px);
+    gap: 10px;
+  }
+}

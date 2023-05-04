@@ -48,3 +48,45 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .coffee-item__photo img {
+    width: 320px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .coffee-item {
+    padding: 60px 0 10px;
+  }
+  .coffee-item-wrapper {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .coffee-item-info {
+    max-width: initial;
+  }
+  .coffee-item__photo {
+    order: 2;
+    margin: 0 auto;
+  }
+  .coffee-item__photo img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .coffee-item {
+    padding: 50px 0 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .coffee-item__photo {
+    width: 100%;
+  }
+  .coffee-item__photo img {
+    width: 100%;
+  }
+}
